@@ -6,7 +6,9 @@
         public string? Name { get; set; }
         public string? Email { get; set; }
         public string? Phone { get; set; }
-
+        public Contato() // Construtor sem parâmetros
+    {
+    }
         public Contato(int id, string name, string email, string phone)
         {
             Id = id;

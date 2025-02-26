@@ -16,5 +16,10 @@ namespace SistemaDeCadrastoContatos.Repositorio
             return contato;
             
         }
-}
+
+        public List<Contato> BuscarTodos()
+        {
+            return _bancoContext.Contatos.ToList();
+        }
+    }
 }

@@ -1,25 +1,25 @@
 ﻿@model Contato
 @{
+    
 }
+
 <div class="text-center">
     <h1 class="display-4">Cadastrar novo contato</h1>
 </div>
 
-<form asp-controller="Contato" asp-action="Criar" method="post">
+<form asp-action="Criar" method="post">
 <div class="mb-3 row">
-    <label for="nome">Nome</label>
-        <input type="text" asp-for="Name" class="form-control" placeholder="Digite o nome">
+    <label asp-for="Name">Nome</label>
+    <input type="text" asp-for="Name" class="form-control" placeholder="Digite o nome">
 </div>
 <div class="mb-3 row">
-    <label for="email">Email</label>
+    <label asp-for="Email" >Email</label>
     <input type="text" asp-for="Email" class="form-control" placeholder="Digite o email">
 </div>
 <div class="mb-3 row">
-    <label for="telefone">Telefone</label>
+    <label asp-for="Phone">Telefone</label>
     <input type="text" asp-for="Phone" class="form-control" placeholder="Digite o telefone">
 </div>
-    <div class="col-auto">
-     <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
-    <a class="btn btn-secondary btn-block" asp-controller="Contatos" asp-action="Index" role="button">Voltar</a>
-    </div>
-    </form>
+    <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
+    <a class="btn btn-secondary btn-block" asp-area="Contatos" asp-action="Criar" role="button">Voltar</a>
+ </form>

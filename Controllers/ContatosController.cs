@@ -17,7 +17,8 @@ namespace SistemaDeCadastroContatos.Controllers
         }
         public IActionResult Criar()
         {
-            return View();
+            List<Contato> contatos=_repositorio.BuscarTodos();
+            return View(contatos);
         }
         public IActionResult Editar()
         {
@@ -33,10 +34,15 @@ namespace SistemaDeCadastroContatos.Controllers
         }
         
         [HttpPost]
-          public IActionResult Criar(Contato contato)
+        public IActionResult Criar(Contato contato)
         {
-            _repositorio.Adcionar(contato);
-            return RedirectToAction("Index");
+            if (ModelState.IsValid)
+            {
+                     _repositorio.Adcionar(contato);
+                // Salvar os dados no banco de dados ou realizar outra ação
+                return RedirectToAction("Criar");
+            }
+            return View(contato);
         }
     }
 }

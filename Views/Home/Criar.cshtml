@@ -1,6 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Criando Contatos";
 }
+@model List<Contato>
 <div class="text-center">
     <h1 class="display-4">Adcionar Contatos</h1>
     <table class="table">
@@ -13,15 +14,20 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th scope="row">Jhonz</th>
-                <td>Jhon@gmail.com</td>
-                <td>343864767</td>
+         @if(Model != null && Model.Any()){
+            foreach(Contato contato in Model){
+   <tr>
+                <th scope="row">@contato.Id</th>
+                <td>@contato.Name</td>
+                <td>@contato.Email</td>
+                <td>@contato.Phone</td>
                 <td>
-                    <a class="btn btn-primary" asp-area="Contatos" asp-action="Editar" role="button">Editar</a>
-                    <a class="btn btn-outline-danger" asp-area="Contatos" asp-action="Apagar" role="button">Apagar</a>
+                    <a class="btn btn-primary" asp-asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Editar" role="button">Editar</a>
+                    <a class="btn btn-outline-danger" asp-asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Apagar" role="button">Apagar</a>
                 </td>
             </tr>
+            }
+         }
         </tbody>
     </table>
 </div>
