@@ -15,7 +15,9 @@ html {
 html {
   position: relative;
   min-height: 100%;
-  margin-top: 60px;
+}
+nav{
+  margin-bottom: 10px;
 }
 
 body {

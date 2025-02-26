@@ -1,5 +1,4 @@
-﻿using System.Reflection.Metadata;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SistemaDeCadastroContatos.Models;
 using SistemaDeCadrastoContatos.Repositorio;
 namespace SistemaDeCadastroContatos.Controllers
