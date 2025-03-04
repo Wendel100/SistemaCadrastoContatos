@@ -1,26 +1,27 @@
-﻿@{
+﻿@model Contato;
+@{
     ViewData["Title"] = "Editar";
 }
 
 <div class="text-center">
     <h1 class="display-4">Editar contatos</h1>
 </div>
-<div class="text-center">
-    <h1 class="display-4">Cadastrar novo contato</h1>
+
+<form asp-action="Criar" method="post">
+    
+    <input type="hidden" asp-for="Id"/>
+<div class="mb-3 row">
+    <label asp-for="Name">Nome</label>
+    <input type="text" asp-for="Name" class="form-control" placeholder="Digite o nome">
 </div>
 <div class="mb-3 row">
-    <label for="nome">Nome</label>
-    <input type="text" placeholder="Digite o nome">
+    <label asp-for="Email" >Email</label>
+    <input type="text" asp-for="Email" class="form-control" placeholder="Digite o email">
 </div>
 <div class="mb-3 row">
-    <label for="email">Email</label>
-    <input type="text" placeholder="Digite o email">
+    <label asp-for="Phone">Telefone</label>
+    <input type="text" asp-for="Phone" class="form-control" placeholder="Digite o telefone">
 </div>
-<div class="mb-3 row">
-    <label for="telefone">Telefone</label>
-    <input type="text" placeholder="Digite o telefone">
-</div>
-<div class="col-auto">
-    <button type="submit" class="btn btn-primary btn-block">Salvar</button>
-    <a class="btn btn-secondary btn-block" asp-area="Contatos" asp-action="Criar">Voltar</a>
-</div>
+    <button type="submit" class="btn btn-primary btn-block">Atualizar</button>
+    <a class="btn btn-secondary btn-block" asp-area="Contatos" asp-action="Criar" role="button">Voltar</a>
+ </form>

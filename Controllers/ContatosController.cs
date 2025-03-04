@@ -20,9 +20,10 @@ namespace SistemaDeCadastroContatos.Controllers
             List<Contato> contatos=_repositorio.BuscarTodos();
             return View(contatos);
         }
-        public IActionResult Editar()
+        public IActionResult Editar(int id)
         {
-            return View();
+            Contato contato = _repositorio.ListaPorId(id);
+            return View(contato);
         }
         public IActionResult Apagar()
         {
@@ -40,9 +41,24 @@ namespace SistemaDeCadastroContatos.Controllers
             {
                      _repositorio.Adcionar(contato);
                 // Salvar os dados no banco de dados ou realizar outra ação
-                return RedirectToAction("Criar");
+                return RedirectToAction("Index");
             }
             return View(contato);
         }
+        [HttpDelete]
+           public IActionResult Apagar(Contato contato)
+        {
+              if (ModelState!=null)
+            {
+            _repositorio.Remover(contato);
+            return RedirectToAction("Index");
+        }
+        return View(contato);
     }
+     [HttpPost]
+        public IActionResult Atualizar(Contato contato){
+            _repositorio.Atualizar(contato);
+            return RedirectToAction("Index");
+        }
+}
 }
