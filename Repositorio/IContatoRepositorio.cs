@@ -4,8 +4,8 @@ namespace SistemaDeCadrastoContatos.Repositorio
 {
     public interface IContatoRepositorio
     {
+         Contato ListaPorId(int id);
         Contato Atualizar(Contato contato);
-        Contato ListaPorId(int id);
         List<Contato>BuscarTodos();
         Contato Adcionar(Contato contato);
         Contato Remover(Contato contato);

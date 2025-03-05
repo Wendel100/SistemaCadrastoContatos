@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NvWQmLeNQ5ooxZaNpGfv72plstk70cSvVWAMK2SzMYY=",
+  "Hash": "P0FXyvyjF1DLMC9n5tT2bg2UAxg4fII6d9FdHnWgudY=",
   "Source": "SistemaDeCadastroContatos",
   "BasePath": "_content/SistemaDeCadastroContatos",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k1985obsxe",
-      "Integrity": "OOs80LY2yyCs4+R9q0oZ8bgsnuvxrbUMdeNCG2YIHvU=",
+      "Fingerprint": "22qxqheitr",
+      "Integrity": "KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,6 +1321,51 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.22qxqheitr.css",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:48:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "22qxqheitr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1331,7 +1376,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "460"
+          "Value": "532"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1384,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OOs80LY2yyCs4+R9q0oZ8bgsnuvxrbUMdeNCG2YIHvU=\""
+          "Value": "\"KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 12:37:31 GMT"
+          "Value": "Wed, 05 Mar 2025 17:48:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,52 +1398,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OOs80LY2yyCs4+R9q0oZ8bgsnuvxrbUMdeNCG2YIHvU="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.k1985obsxe.css",
-      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "460"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OOs80LY2yyCs4+R9q0oZ8bgsnuvxrbUMdeNCG2YIHvU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 12:37:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k1985obsxe"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OOs80LY2yyCs4+R9q0oZ8bgsnuvxrbUMdeNCG2YIHvU="
+          "Value": "sha256-KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU="
         }
       ]
     },

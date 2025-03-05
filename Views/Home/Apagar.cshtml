@@ -3,10 +3,11 @@
 }
 <div class="text-center">
     <h3 class="display-4">Deseja apagar contato</h3>
-    <br/>
-    <form asp-action="Apagar">
+</div>
+<br/>
+    <form asp-action="Apagar" method="post">
+ 
     <a class="btn btn-danger btn-block" role="button" asp-area="Contatos" asp-action="Criar">Cacelar exclusão</a>
     <button type="submit" class="btn btn-primary btn-block">Confirmar a exclusão</button>
-    </form>
-</div>
+     </form>
 <a class="btn btn-secondary btn-block" asp-area="Contatos" asp-action="Criar">Voltar</a>

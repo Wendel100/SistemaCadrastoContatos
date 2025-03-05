@@ -45,20 +45,16 @@ namespace SistemaDeCadastroContatos.Controllers
             }
             return View(contato);
         }
-        [HttpDelete]
+        [HttpPost]
            public IActionResult Apagar(Contato contato)
         {
-              if (ModelState!=null)
-            {
-            _repositorio.Remover(contato);
-            return RedirectToAction("Index");
+             _repositorio.Remover(contato);
+            return RedirectToAction("Criar");
         }
-        return View(contato);
-    }
      [HttpPost]
-        public IActionResult Atualizar(Contato contato){
+        public IActionResult Alterar(Contato contato){
             _repositorio.Atualizar(contato);
-            return RedirectToAction("Index");
+            return RedirectToAction("Criar");
         }
 }
 }

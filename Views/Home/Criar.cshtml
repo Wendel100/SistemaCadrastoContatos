@@ -1,7 +1,7 @@
-﻿@{
+﻿@model List<Contato>
+@{
     ViewData["Title"] = "Criando Contatos";
 }
-@model List<Contato>
 <div class="text-center">
     <h1 class="display-4">Adcionar Contatos</h1>
     <table class="table">
@@ -22,8 +22,8 @@
                 <td>@contato.Email</td>
                 <td>@contato.Phone</td>
                 <td>
-                    <a class="btn btn-primary" asp-asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Editar" role="button">Editar</a>
-                    <a class="btn btn-outline-danger" asp-asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Apagar" role="button">Apagar</a>
+                    <a class="btn btn-primary" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Editar" role="button">Editar</a>
+                    <a class="btn btn-outline-danger" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Apagar" role="button">Apagar</a>
                 </td>
             </tr>
             }
