@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P0FXyvyjF1DLMC9n5tT2bg2UAxg4fII6d9FdHnWgudY=",
+  "Hash": "DSZYydX6bf1uTwYHn0dFxQU4F61a1gMt87ldZLslP+U=",
   "Source": "SistemaDeCadastroContatos",
   "BasePath": "_content/SistemaDeCadastroContatos",
   "Mode": "Default",
@@ -73,19 +73,61 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "22qxqheitr",
-      "Integrity": "KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=",
+      "Fingerprint": "7662d9ukxo",
+      "Integrity": "QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
       "SourceId": "SistemaDeCadastroContatos",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\",
       "BasePath": "_content/SistemaDeCadastroContatos",
-      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "RelativePath": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hcn66l3prw",
+      "Integrity": "T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\adjust-button-with-plus-and-minus_icon-icons.com_72875.png"
+    },
+    {
+      "Identity": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\Contatos.png",
+      "SourceId": "SistemaDeCadastroContatos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\",
+      "BasePath": "_content/SistemaDeCadastroContatos",
+      "RelativePath": "images/Contatos#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iazotketjp",
+      "Integrity": "VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Contatos.png"
+    },
+    {
+      "Identity": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\favicon.ico",
+      "SourceId": "SistemaDeCadastroContatos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\",
+      "BasePath": "_content/SistemaDeCadastroContatos",
+      "RelativePath": "images/favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -98,7 +140,28 @@
       "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\images\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\phone_call.ico",
+      "SourceId": "SistemaDeCadastroContatos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\",
+      "BasePath": "_content/SistemaDeCadastroContatos",
+      "RelativePath": "images/phone_call#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pf30mw3tt2",
+      "Integrity": "Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phone_call.ico"
     },
     {
       "Identity": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\js\\site.js",
@@ -1321,7 +1384,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.22qxqheitr.css",
+      "Route": "css/site.7662d9ukxo.css",
       "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1331,7 +1394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "532"
+          "Value": "1193"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=\""
+          "Value": "\"QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:48:59 GMT"
+          "Value": "Wed, 05 Mar 2025 22:49:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,7 +1416,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "22qxqheitr"
+          "Value": "7662d9ukxo"
         },
         {
           "Name": "label",
@@ -1361,7 +1424,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU="
+          "Value": "sha256-QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g="
         }
       ]
     },
@@ -1376,7 +1439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "532"
+          "Value": "1193"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=\""
+          "Value": "\"QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:48:59 GMT"
+          "Value": "Wed, 05 Mar 2025 22:49:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,13 +1461,177 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU="
+          "Value": "sha256-QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g="
         }
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\favicon.ico",
+      "Route": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.hcn66l3prw.png",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 20:10:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hcn66l3prw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs="
+        }
+      ]
+    },
+    {
+      "Route": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 20:10:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs="
+        }
+      ]
+    },
+    {
+      "Route": "images/Contatos.iazotketjp.png",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\Contatos.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 21:23:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iazotketjp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Contatos.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Contatos.png",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\Contatos.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 21:23:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU="
+        }
+      ]
+    },
+    {
+      "Route": "images/favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1439,7 +1666,7 @@
         },
         {
           "Name": "label",
-          "Value": "favicon.ico"
+          "Value": "images/favicon.ico"
         },
         {
           "Name": "integrity",
@@ -1448,8 +1675,8 @@
       ]
     },
     {
-      "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\favicon.ico",
+      "Route": "images/favicon.ico",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1481,6 +1708,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone_call.ico",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\phone_call.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 19:50:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone_call.pf30mw3tt2.ico",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\phone_call.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 19:50:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pf30mw3tt2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/phone_call.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY="
         }
       ]
     },

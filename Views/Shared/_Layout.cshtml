@@ -7,12 +7,18 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SistemaDeCadastroContatos.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SistemaDeCadastroContatos</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-person-rolodex"></i><span class="titulo"> Cadastro de Contatos.Tec</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,10 +26,12 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"><span class="sub-titulo">
+                        <i class="bi bi-house-fill"></i>Home</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Criar">Adcionar</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Criar"><Span class="sub-titulo">
+                        <i class="bi bi-plus-square"></i>Adcionar</Span></a>
                         </li>
                     </ul>
                 </div>
@@ -38,7 +46,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2024 - SistemaDeCadastroContatos - <a asp-area="" asp-controller="Home" asp-action="Home">Principal</a>
+            &copy; 2024 - Sistema De Cadastro Contatos - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

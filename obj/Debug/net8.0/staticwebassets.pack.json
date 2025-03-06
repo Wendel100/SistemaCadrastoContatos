@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\Contatos.png",
+      "PackagePath": "staticwebassets\\images\\Contatos.png"
+    },
+    {
+      "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
+      "PackagePath": "staticwebassets\\images\\adjust-button-with-plus-and-minus_icon-icons.com_72875.png"
+    },
+    {
+      "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\images\\phone_call.ico",
+      "PackagePath": "staticwebassets\\images\\phone_call.ico"
     },
     {
       "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\js\\site.js",

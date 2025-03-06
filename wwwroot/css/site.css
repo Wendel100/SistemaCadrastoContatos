@@ -1,10 +1,10 @@
 html {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -22,14 +22,45 @@ nav{
 
 body {
   margin-bottom: 60px;
-  background-color: blueviolet;
+  background: linear-gradient(to bottom, #6e10c6, #c497ff);
 }
-h1{
+h1, tr,.container{
   color: antiquewhite;
 }
-tr{
-  color: antiquewhite;
+.sub-titulo{
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
 }
-.container{
-  color: antiquewhite;
+.sub-titulo,.titulo:hover {
+  color: rgb(79, 79, 235);
 }
+.titulo{
+  font-family: "Roboto", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.titulo2{
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  font-weight:500;
+  font-size: 60px;
+  background: linear-gradient(to bottom, #6e10c6);
+  border-radius:6px;
+  border:4px solid #ffffff;
+}
+.titulo3{
+  margin-top:6px;
+  border-radius:6px;
+  border:4px solid #ffffff;
+}
+.mb-3{
+  font-family: "Roboto", sans-serif;
+}
+.botao{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 20vh; 
+  margin: 0;
+}
+

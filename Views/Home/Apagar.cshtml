@@ -2,12 +2,16 @@
 @{
 }
 <div class="text-center">
-    <h3 class="display-4">Deseja apagar contato</h3>
+    <h2 class="titulo2">Apagar contato</h2>
 </div>
 <br/>
+<div class="botao">
     <form asp-action="Apagar" method="post">
- 
-    <a class="btn btn-danger btn-block" role="button" asp-area="Contatos" asp-action="Criar">Cacelar exclusão</a>
-    <button type="submit" class="btn btn-primary btn-block">Confirmar a exclusão</button>
+    <a class="btn btn-danger btn-block" role="button" asp-area="Contatos" asp-action="Criar">
+    <i class="bi bi-file-x"></i>Cacelar exclusão</a>
+    <button type="submit" class="btn btn-primary btn-block">
+    <i class="bi bi-check-circle"></i>Confirmar a exclusão</button>
+    <a class="btn btn-secondary btn-block" asp-area="Contatos" asp-action="Criar">
+    <i class="bi bi-back"></i>Voltar</a>
      </form>
-<a class="btn btn-secondary btn-block" asp-area="Contatos" asp-action="Criar">Voltar</a>
+    </div>

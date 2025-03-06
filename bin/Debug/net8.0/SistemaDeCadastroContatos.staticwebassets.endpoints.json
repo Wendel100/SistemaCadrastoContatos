@@ -85,7 +85,7 @@
       ]
     },
     {
-      "Route": "css/site.22qxqheitr.css",
+      "Route": "css/site.7662d9ukxo.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -99,7 +99,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "532"
+          "Value": "1193"
         },
         {
           "Name": "Content-Type",
@@ -107,21 +107,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=\""
+          "Value": "\"QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:48:59 GMT"
+          "Value": "Wed, 05 Mar 2025 22:49:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "22qxqheitr"
+          "Value": "7662d9ukxo"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU="
+          "Value": "sha256-QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g="
         },
         {
           "Name": "label",
@@ -144,7 +144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "532"
+          "Value": "1193"
         },
         {
           "Name": "Content-Type",
@@ -152,23 +152,187 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU=\""
+          "Value": "\"QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 17:48:59 GMT"
+          "Value": "Wed, 05 Mar 2025 22:49:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KqDjLAne/fgJvOe+xvUeyx6OSvQ+xaXILv0GhlBIccU="
+          "Value": "sha256-QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g="
         }
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "favicon.ico",
+      "Route": "images/Contatos.iazotketjp.png",
+      "AssetFile": "images/Contatos.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 21:23:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iazotketjp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Contatos.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/Contatos.png",
+      "AssetFile": "images/Contatos.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "122161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 21:23:08 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VgorddppMIDm3dc5bHPiRw22Cc14wULP0jwtnAB7OTU="
+        }
+      ]
+    },
+    {
+      "Route": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.hcn66l3prw.png",
+      "AssetFile": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 20:10:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hcn66l3prw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs="
+        },
+        {
+          "Name": "label",
+          "Value": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
+      "AssetFile": "images/adjust-button-with-plus-and-minus_icon-icons.com_72875.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 20:10:40 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T5q1iajr+deBC3Tu9GnP3ksx4QxY+3G6aT6h1KBmegs="
+        }
+      ]
+    },
+    {
+      "Route": "images/favicon.61n19gt1b8.ico",
+      "AssetFile": "images/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,13 +371,13 @@
         },
         {
           "Name": "label",
-          "Value": "favicon.ico"
+          "Value": "images/favicon.ico"
         }
       ]
     },
     {
-      "Route": "favicon.ico",
-      "AssetFile": "favicon.ico",
+      "Route": "images/favicon.ico",
+      "AssetFile": "images/favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -245,6 +409,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone_call.ico",
+      "AssetFile": "images/phone_call.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 19:50:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone_call.pf30mw3tt2.ico",
+      "AssetFile": "images/phone_call.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 19:50:28 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pf30mw3tt2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zddntvij5jpL+Dz7VXQEF6LWTb14+X65trlGghrCcLY="
+        },
+        {
+          "Name": "label",
+          "Value": "images/phone_call.ico"
         }
       ]
     },

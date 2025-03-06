@@ -3,15 +3,17 @@
     ViewData["Title"] = "Criando Contatos";
 }
 <div class="text-center">
-    <h1 class="display-4">Adcionar Contatos</h1>
+    <h1 class="display-4"><span class="titulo2">Adcionar Contatos</span></h1>
     <table class="table">
         <thead>
-             <a class="btn btn-primary" id="adcionar" role="button" asp-area="Contatos" asp-action="Cadastrar">Adcionar contato</a>
-            <tr>
+             <a class="btn btn-primary" id="adcionar" role="button" asp-area="Contatos" asp-action="Cadastrar">
+            <i class="bi bi-plus-square"></i>  Adcionar contato</a>
+            <tr> 
+                <th scope="col">Id</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Email</th>
                 <th scope="col">Telefone</th>
-            </tr>
+                <th scope="col"></th>
         </thead>
         <tbody>
          @if(Model != null && Model.Any()){
@@ -22,8 +24,10 @@
                 <td>@contato.Email</td>
                 <td>@contato.Phone</td>
                 <td>
-                    <a class="btn btn-primary" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Editar" role="button">Editar</a>
-                    <a class="btn btn-outline-danger" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Apagar" role="button">Apagar</a>
+                    <a class="btn btn-primary" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Editar" role="button">
+                    <i class="bi bi-pencil-square"></i>Editar</a>
+                    <a class="btn btn-outline-danger" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Apagar" role="button">
+                    <i class="bi bi-file-x"></i>Apagar</a>
                 </td>
             </tr>
             }
