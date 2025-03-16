@@ -63,4 +63,6 @@ h1, tr,.container{
   height: 20vh; 
   margin: 0;
 }
-
+.validationMs{
+  color: red;
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DSZYydX6bf1uTwYHn0dFxQU4F61a1gMt87ldZLslP+U=",
+  "Hash": "lVyrErhDBkl6GAm1y/1j0fzcFk0QeBtGGcs4y2Tdg0w=",
   "Source": "SistemaDeCadastroContatos",
   "BasePath": "_content/SistemaDeCadastroContatos",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7662d9ukxo",
-      "Integrity": "QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=",
+      "Fingerprint": "u0y4be8slg",
+      "Integrity": "PujurHoNI6IpENzsxhysiIn0CMCl+yXbXMKVLN6cP50=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1384,51 +1384,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.7662d9ukxo.css",
-      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1193"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 22:49:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7662d9ukxo"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1439,7 +1394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1193"
+          "Value": "1223"
         },
         {
           "Name": "Content-Type",
@@ -1447,11 +1402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g=\""
+          "Value": "\"PujurHoNI6IpENzsxhysiIn0CMCl+yXbXMKVLN6cP50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 22:49:55 GMT"
+          "Value": "Sun, 16 Mar 2025 03:35:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1461,7 +1416,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QaP/w+3agvf+/OZcusdf/sK/MFHOIl2awWFiULGge/g="
+          "Value": "sha256-PujurHoNI6IpENzsxhysiIn0CMCl+yXbXMKVLN6cP50="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.u0y4be8slg.css",
+      "AssetFile": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1223"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PujurHoNI6IpENzsxhysiIn0CMCl+yXbXMKVLN6cP50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 03:35:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0y4be8slg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PujurHoNI6IpENzsxhysiIn0CMCl+yXbXMKVLN6cP50="
         }
       ]
     },

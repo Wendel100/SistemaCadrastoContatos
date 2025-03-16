@@ -39,11 +39,10 @@ namespace SistemaDeCadastroContatos.Controllers
         {
             if (ModelState.IsValid)
             {
-                     _repositorio.Adcionar(contato);
-                // Salvar os dados no banco de dados ou realizar outra ação
-                return RedirectToAction("Index");
+                _repositorio.Adcionar(contato);
+                return RedirectToAction("Criar");
             }
-            return View(contato);
+            return View("criar",contato);
         }
         [HttpPost]
            public IActionResult Apagar(Contato contato)
@@ -53,8 +52,12 @@ namespace SistemaDeCadastroContatos.Controllers
         }
      [HttpPost]
         public IActionResult Alterar(Contato contato){
+              if (ModelState.IsValid)
+            {
             _repositorio.Atualizar(contato);
             return RedirectToAction("Criar");
+            }
+            return View("Editar",contato);
         }
 }
 }
