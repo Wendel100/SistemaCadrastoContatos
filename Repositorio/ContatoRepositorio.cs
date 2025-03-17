@@ -33,11 +33,7 @@ namespace SistemaDeCadrastoContatos.Repositorio
                 _bancoContext.SaveChanges();
                 return contatoDB;
             }
-
-        public Contato ListaPorId(int id)
-        {
-            return _bancoContext.Contatos.FirstOrDefault(x => x.Id == id);
-        }
+        public Contato ListaPorId(int id) => _bancoContext.Contatos.FirstOrDefault(x => x.Id == id);
 
         public Contato Remover(Contato contato)
         {

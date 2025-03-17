@@ -37,18 +37,35 @@ namespace SistemaDeCadastroContatos.Controllers
         [HttpPost]
         public IActionResult Criar(Contato contato)
         {
-            if (ModelState.IsValid)
+            try
+            {
+              if (ModelState.IsValid)
             {
                 _repositorio.Adcionar(contato);
-                return RedirectToAction("Criar");
+                TempData["MensageSucesso"] = $"Contato criada com sucesso";
             }
+             return RedirectToAction("Criar");
+            }
+            catch (System.Exception erro)
+            {
+                TempData["MensageErro"] = $"Possivel erro: {erro.Message}";
+            }
+        
             return View("criar",contato);
         }
         [HttpPost]
            public IActionResult Apagar(Contato contato)
         {
-             _repositorio.Remover(contato);
-            return RedirectToAction("Criar");
+            if (contato != null)
+            {
+                _repositorio.Remover(contato);
+                TempData["MenssageSucesso"] = $"Contato apagado com sucesso";
+                  return RedirectToAction("Criar",contato);
+            }
+            else{
+                TempData["MenssageErro"] = "Falha ao apagar contato";
+            }
+            return View();
         }
      [HttpPost]
         public IActionResult Alterar(Contato contato){

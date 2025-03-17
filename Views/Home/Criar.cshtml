@@ -1,37 +1,54 @@
 ﻿@model List<Contato>
 @{
-    ViewData["Title"] = "Criando Contatos";
 }
+
+@if(TempData["MensageSucesso"]!= null){
+<div class="alert alert-success" role="alert">
+    <p class="parag">@TempData["MensageSucesso"]</p>
+<button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">x</button>
+</div>
+}
+@if(TempData["MensageErro"] != null){
+<div class="alert alert-danger" role="alert">
+      <p class="parag">@TempData["MensageErro"]</p>
+<button type="button" class="btn btn-danger btn-sm close-alert" aria-label="Close">x</button>
+</div>
+}
+
 <div class="text-center">
     <h1 class="display-4"><span class="titulo2">Adcionar Contatos</span></h1>
-    <table class="table">
-        <thead>
-             <a class="btn btn-primary" id="adcionar" role="button" asp-area="Contatos" asp-action="Cadastrar">
-            <i class="bi bi-plus-square"></i>  Adcionar contato</a>
-            <tr> 
-                <th scope="col">Id</th>
-                <th scope="col">Nome</th>
-                <th scope="col">Email</th>
-                <th scope="col">Telefone</th>
-                <th scope="col"></th>
-        </thead>
-        <tbody>
-         @if(Model != null && Model.Any()){
-            foreach(Contato contato in Model){
-   <tr>
+        <a class="btn btn-primary" id="adcionar" role="button" asp-area="Contatos" asp-action="Cadastrar">
+     <i class="bi bi-plus-square"></i>  Adcionar contato</a>
+
+<table id="table_id" class="table">
+    <thead>
+        <tr> 
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Email</th>
+            <th scope="col">Telefone</th>
+            <th scope="col">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+    @if(Model != null && Model.Any()){
+        foreach(Contato contato in Model){
+            <tr>
                 <th scope="row">@contato.Id</th>
                 <td>@contato.Name</td>
                 <td>@contato.Email</td>
                 <td>@contato.Phone</td>
                 <td>
                     <a class="btn btn-primary" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Editar" role="button">
-                    <i class="bi bi-pencil-square"></i>Editar</a>
-                    <a class="btn btn-outline-danger" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Apagar" role="button">
-                    <i class="bi bi-file-x"></i>Apagar</a>
+                        <i class="bi bi-pencil-square"></i>Editar
+                    </a>
+                    <a class="btn btn-outline-danger" asp-route-id="@contato.Id" asp-area="Contatos" asp-action="Apagar">
+                        <i class="bi bi-file-x"></i>Apagar
+                    </a>
                 </td>
             </tr>
-            }
-         }
-        </tbody>
-    </table>
+        }
+    }
+    </tbody>
+</table>
 </div>

@@ -11,7 +11,7 @@ builder.Services.AddDbContext<BancoContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
 
 
-var app = builder.Build();
+var app = builder.Build(); 
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
