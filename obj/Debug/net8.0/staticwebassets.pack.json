@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SistemaDeCadastroContatos.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SistemaDeCadastroContatos.h9n8fe32s7.bundle.scp.css"
+      "PackagePath": "staticwebassets\\SistemaDeCadastroContatos.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\css\\site.css",
@@ -255,10 +255,6 @@
     {
       "Id": "C:\\Users\\darkr\\Desktop\\SistemaCadrastoContatos\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SistemaDeCadastroContatos.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SistemaDeCadastroContatos.Microsoft.AspNetCore.StaticWebAssets.props",

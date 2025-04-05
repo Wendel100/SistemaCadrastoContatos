@@ -343,7 +343,6 @@ C:\Users\darkr\Desktop\SistemaDeCadrastoContatos\obj\Debug\net8.0\SistemaDeCadas
 C:\Users\darkr\Desktop\SistemaDeCadrastoContatos\obj\Debug\net8.0\ref\SistemaDeCadastroContatos.dll
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\bin\Debug\net8.0\appsettings.json
-C:\Users\darkr\Desktop\SistemaCadrastoContatos\bin\Debug\net8.0\SistemaDeCadastroContatos.staticwebassets.endpoints.json
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\bin\Debug\net8.0\SistemaDeCadastroContatos.staticwebassets.runtime.json
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\bin\Debug\net8.0\SistemaDeCadastroContatos.exe
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\bin\Debug\net8.0\SistemaDeCadastroContatos.deps.json
@@ -500,9 +499,7 @@ C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\scopedcss\bundle
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\scopedcss\projectbundle\SistemaDeCadastroContatos.bundle.scp.css
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets\msbuild.SistemaDeCadastroContatos.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets\msbuild.SistemaDeCadastroContatos.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets\msbuild.build.SistemaDeCadastroContatos.props
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.SistemaDeCadastroContatos.props
 C:\Users\darkr\Desktop\SistemaCadrastoContatos\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.SistemaDeCadastroContatos.props
